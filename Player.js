@@ -1,6 +1,14 @@
 class Player extends User {
-    name = "";
+    name = null;
+    team = null;
+    id = null;
+
+
     constructor(name){
+        this.name = name;
+    }
+
+    set setTeam(team) {
         this.name = name;
     }
 
@@ -8,4 +16,11 @@ class Player extends User {
         return this.name;
     }
 
+    get isMod() {
+        return false;
+    }
+    
+    get getTeam() {
+        return team;
+    }
 }

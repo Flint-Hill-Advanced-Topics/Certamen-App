@@ -7,15 +7,7 @@ class User
         myName = name;
         myUserId = id;
     }
-    findUser(id){
-        while (){
-            
-        }
 
-
-
-    
-    }
     get getName()
     {
         return this.myName;

@@ -7,7 +7,7 @@ class Team
         {player: null},
         {player: null},
         {player: null}
-    ]
+    ];
 
     constructor(name, player1, player2, player3, player4) {
         this.name = name;
