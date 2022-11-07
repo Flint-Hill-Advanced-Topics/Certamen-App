@@ -16,7 +16,7 @@ class Player extends User {
         return this.name;
     }
 
-    get isMod() {
+    get isMod() { 
         return false;
     }
     

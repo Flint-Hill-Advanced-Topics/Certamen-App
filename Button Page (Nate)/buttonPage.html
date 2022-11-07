@@ -1,32 +1,62 @@
+
 <!DOCTYPE html>
-<html> 
-
-<head> 
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content = "width = device-width, in, initial-scale = 1.0">
-    <title>The Certamen Game</title>
-    <link rel="stylesheet" href = "buttonPage.css">
-    <script defer src = "buttonPage.js"> </script>
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style> *{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    }
+    
+    html
+    body {
+    height: 100%;
+    }
+    
+    body{
+        height: 1000px;
+        background-image: linear-gradient(90deg, purple, goldenrod);
+        background-repeat: repeat-y;
+    }
+    
+    button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #034d85;
+    padding: 1.1rem 3.4rem;
+    border-radius: .2rem;
+    transition: opacity .2s;
+    }
+    
+    button:hover {
+    cursor: pointer;
+    background: #5594cb;
+    }</style>
 </head>
-
-
+  
 <body>
-
-    <header>
-<h1> Certamen</h1>
-    </header>
-
-<div class = "buzz">
-<button id = "buzzer" class = "buzzerButton"> Press Me </button>
-</div>
-
+    <h1>Certamen</h1>
+  <div>
+    <button onclick="play()">Press Here!</button>
+  </div>
+    <script>
+        function play() {
+            var audio = new Audio(
+'https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3');
+            audio.play();
+        }
+    </script>
 </body>
-
-
-
-
-
-
-
 </html>

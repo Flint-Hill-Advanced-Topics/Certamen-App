@@ -13,6 +13,10 @@ class gameManager {
         let mod = createMod();
     }
 
+    test() {
+        console.log('success');
+    }
+
     randomCode () {
         let allCharNum = '0123456789QWERTYUIOPASDFGHJKLZXCVBNM';// length = 36, index 0 to 35
         let roomCode = '';
@@ -21,7 +25,10 @@ class gameManager {
             tempIndex = (Math.random() * 36);
             roomCode += allCharNum.substring(tempIndex, tempIndex + 1);
         }
-        roomcode += '√';
+        let a = Math.random*10000;
+        if(a == 876){
+            roomCode += "√";
+        }
         document.querySelector("#GCode")
         return roomCode;
     }

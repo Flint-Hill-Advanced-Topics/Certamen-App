@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     border: none;
@@ -6,16 +6,15 @@
     -webkit-tap-highlight-color: transparent;
     }
     
-    html,
+    html
     body {
     height: 100%;
     }
     
-    body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #dff0f6;
+    body{
+        height: 1000px;
+        background-image: linear-gradient(132deg, purple, goldenrod);
+        background-repeat: no-repeat;
     }
     
     button {
@@ -30,5 +29,5 @@
     
     button:hover {
     cursor: pointer;
-    background: #053056;
+    background: #5594cb;
     }
