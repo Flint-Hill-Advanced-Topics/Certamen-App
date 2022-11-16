@@ -1,4 +1,8 @@
-class gameManager {
+class GameManager {
+
+    constructor(){
+    
+    }
     
     createPlayer(name) {
         return new Player(name);

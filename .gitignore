@@ -2,6 +2,12 @@
 .replit
 replit.nix
 
+#vscode
+.vscode
+.vscode/*
+.vscode/*.*
+.vscode/
+
 # Logs
 logs
 *.log

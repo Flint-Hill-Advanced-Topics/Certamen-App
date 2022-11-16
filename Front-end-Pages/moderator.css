@@ -1,31 +1,3 @@
-/*Downloaded Fonts are located Below
- */
-/*Roboto*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-
-body{
-	height: 1000px;
-    background-image: linear-gradient(132deg, purple, goldenrod);
-    background-repeat: no-repeat;
-}
-
-h1{
-	color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 80px;
-    text-transform: uppercase;
-    margin-top: 90px;
-    margin-bottom:  80px;
-}
-
 .Bubble{
     position: relative;
     margin: 0 auto;
@@ -47,7 +19,7 @@ h1{
 
 .Space{
 	margin:  0 auto;
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 	padding-top: 50px;
 	width:  200px;
 	height:  50px;
@@ -65,7 +37,6 @@ h1{
 	padding-top: 50px;
 	width:  150px;
 	height:  50px;
-	background:  lightgray;
 	border-radius: 15px;
 
 }
@@ -93,6 +64,7 @@ h1{
 
 a{
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .StartButton:hover {
